@@ -6,7 +6,6 @@ export default defineConfig({
     target: 'ESNext'
   },
   plugins: [solid()],
-  root: 'src',
   server: {
     strictPort: true
   }
