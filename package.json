@@ -12,7 +12,7 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.0.0",
+    "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^17.0.0",
     "@sapphire/eslint-config": "^4.3.5",
     "@sapphire/ts-config": "^3.3.4",
