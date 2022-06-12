@@ -4,6 +4,7 @@
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/class-literal-property-style": "off",
     "curly": ["error", "multi-line"],
+    "jsx-quotes": ["error", "prefer-single"],
     "no-lone-blocks": "error",
     "no-tabs": "error",
     "padding-line-between-statements": [
