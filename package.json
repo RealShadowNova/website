@@ -16,7 +16,7 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "solid-js": "^1.6.15"
+    "solid-js": "^1.7.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.5.1",
