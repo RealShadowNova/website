@@ -1,27 +1,28 @@
-import { Footer } from './components/Footer';
-import { NavigationBar } from './components/NavigationBar';
+import { Meta, MetaProvider } from '@solidjs/meta';
+import { Router, useRoutes } from '@solidjs/router';
+import type { Component } from 'solid-js';
+import { routes } from './routes';
 
-export function App() {
+const App: Component = () => {
+  const Routes = useRoutes(routes);
+
   return (
-    <div class='bg-black text-white space-y-24'>
-      <NavigationBar />
+    <MetaProvider>
+      <Meta name='title' content='RealShadowNova' />
+      <Meta name='description' content='The personal portfolio website of Hezekiah Hendry, aka RealShadowNova' />
 
-      <div class='flex justify-center'>
-        <div class='max-w-4xl space-y-8 p-8'>
-          <div class='space-y-4'>
-            <h3 class='text-base sm:text-xl font-mono text-indigo-500'>Hi, my name is</h3>
-            <h1 class='text-4xl sm:text-6xl'>Hezekiah Hendry.</h1>
-            <h1 class='text-4xl sm:text-6xl'>I build things for the web and beyond.</h1>
-          </div>
+      <Meta property='og:type' content='website' />
+      <Meta property='og:url' content='https://shadownova.dev' />
+      <Meta property='og:title' content='RealShadowNova' />
+      <Meta property='og:description' content='The personal portfolio website of Hezekiah Hendry, aka RealShadowNova' />
 
-          <p class='text-base sm:text-xl'>
-            I'm a back-end developer specializing in building (and occasionally designing) amazing projects. Currently, I'm focused on building
-            something to fill this space in.
-          </p>
+      <Router>
+        <div id='container'>
+          <Routes />
         </div>
-      </div>
-
-      <Footer />
-    </div>
+      </Router>
+    </MetaProvider>
   );
-}
+};
+
+export default App;
