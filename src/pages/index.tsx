@@ -1,5 +1,5 @@
 import { Link } from '@solidjs/router';
-import { HiSolidExternalLink } from 'solid-icons/hi';
+import { VsLinkExternal } from 'solid-icons/vs';
 import type { Component } from 'solid-js';
 
 const Home: Component = () => {
@@ -39,7 +39,7 @@ const Home: Component = () => {
               target='_blank'
             >
               <span>GitHub </span>
-              <HiSolidExternalLink class='h-5 w-auto text-neutral-300' />
+              <VsLinkExternal class='h-5 w-auto text-neutral-300' />
             </a>
 
             <a
@@ -48,7 +48,7 @@ const Home: Component = () => {
               target='_blank'
             >
               <span>Discord </span>
-              <HiSolidExternalLink class='h-5 w-auto text-neutral-300' />
+              <VsLinkExternal class='h-5 w-auto text-neutral-300' />
             </a>
           </div>
         </div>
