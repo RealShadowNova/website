@@ -1279,14 +1279,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solid-primitives/storage@npm:^1.3.11":
-  version: 1.3.11
-  resolution: "@solid-primitives/storage@npm:1.3.11"
+"@solid-primitives/storage@npm:^2.1.4":
+  version: 2.1.4
+  resolution: "@solid-primitives/storage@npm:2.1.4"
   dependencies:
-    "@solid-primitives/utils": ^6.2.0
+    "@solid-primitives/utils": ^6.2.3
   peerDependencies:
     solid-js: ^1.6.12
-  checksum: e5b0aad0fde2407fea1cda78e66a4bf1adb571729dacb31756d50871a80ca5943ee7402a737a5b73123d472cee3ea4b88fd4fe79b62ce9525030299eec8f40d6
+    solid-start: ">=0.2.26"
+  peerDependenciesMeta:
+    solid-start:
+      optional: true
+  checksum: d441a96125983f8ce0e27e75c75795c33c67f1a152549b2500b817f42b334e28d1c0d1aeacb6155172e655c94ac82fd5b702ab5e30c3f8926f8588d608f7e96f
   languageName: node
   linkType: hard
 
@@ -1305,6 +1309,15 @@ __metadata:
   peerDependencies:
     solid-js: ^1.6.12
   checksum: 945f16040780b0da2a8ef5da7b0e7df22320d6301b230b9ec7d2e9984d7b8f05970b7ed2174a127c3a0a09f590629e47acfd5152025ea0a52f028fc083e98dca
+  languageName: node
+  linkType: hard
+
+"@solid-primitives/utils@npm:^6.2.3":
+  version: 6.2.3
+  resolution: "@solid-primitives/utils@npm:6.2.3"
+  peerDependencies:
+    solid-js: ^1.6.12
+  checksum: 7b1d7e4dabc291952ef5e0c4434e6515bba220d89e824037d25bccbf94bd0027ffffbccb74f64437d9201d97a1fa51b54158f973c66c519cbbbe3513960b2a29
   languageName: node
   linkType: hard
 
@@ -6993,7 +7006,7 @@ __metadata:
     "@sapphire/fetch": ^2.4.1
     "@sapphire/ts-config": ^4.0.1
     "@solid-primitives/media": ^2.2.3
-    "@solid-primitives/storage": ^1.3.11
+    "@solid-primitives/storage": ^2.1.4
     "@solidjs/meta": ^0.28.5
     "@solidjs/router": ^0.8.2
     "@types/markdown-it": ^12.2.3
