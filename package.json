@@ -41,7 +41,7 @@
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^8.10.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-prettier": "^5.1.3",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.2",
     "markdown-it": "^13.0.2",
