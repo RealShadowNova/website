@@ -30,8 +30,8 @@
     "typedoc-json-parser": "^8.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.8.1",
-    "@commitlint/config-conventional": "^17.8.1",
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
     "@sapphire/eslint-config": "^4.4.3",
     "@sapphire/ts-config": "^4.0.1",
     "@types/markdown-it": "^12.2.3",
